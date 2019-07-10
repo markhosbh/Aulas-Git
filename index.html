@@ -1,11 +1,21 @@
 <html>
-	<head>
-	</head>
-	<body>
-		<form action="https://web.whatsapp.com/send?phone=&phone&text=" method="GET">
-			Telefone: <input type="text" name="phone" id="phone" spaceholder="+5531900000000"/><br/>
-		  	Mensagem: <input type="text" name="text" id="text" /><br/>
-		    	<input name="gravar" type="submit" id="gravar" value="ENVIAR" />
-		</form>
-	</body>
+    <head>
+    </head>
+    <body>
+        <div style="background-color: #ebebeb; width: 70%; padding: 5%; margin: 10% auto">
+            <h1>Mensagem Whatsapp</h1>
+            <p>Preencha as informações abaixo para enviar uma mensagem para qualquer número do Wpp sem ter o contato na agenda.</p>
+            <div style="float: left; margin: 0 8px;">
+                <img src="https://cdn.icon-icons.com/icons2/555/PNG/128/whatsapp_icon-icons.com_53606.png" width="128" height="128" alt="Whatsapp"/>
+            </div>
+            <div style="float: none;">
+                <form action="https://web.whatsapp.com/send?phone=&phone&text=" method="GET" target="_blank">  
+                    <b style="padding: 0 2% 0 2%;">Telefone:</b> <input type="text" name="phone" id="phone" placeholder="+5531900000000"/><br><br> 
+                    <b style="padding: 0 0.5% 0 2%;">Mensagem:</b> <textarea cols="42" rows="3" id="text" name="text"></textarea><br>  
+                    <input name="gravar" type="submit" id="gravar" value="ENVIAR" style="padding: 0.5% 14.2%; margin: 1% 11%; background-color: forestgreen"/>
+
+                </form>
+            </div>
+        </div>
+    </body>
 </html>
