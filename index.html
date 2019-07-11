@@ -1,7 +1,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="estilo/style.css">
     </head>
     <body>
         <div class="corpo">
@@ -11,10 +11,16 @@
                 <img src="https://cdn.icon-icons.com/icons2/555/PNG/128/whatsapp_icon-icons.com_53606.png" width="128" height="128" alt="Whatsapp"/>
             </div>
             <div class="conteudo">
-                <form action="https://web.whatsapp.com/send?phone=&phone&text=" method="GET" target="_blank">  
-                    <b style="padding: 0 2% 0 2%;">Telefone:</b> <input type="text" name="phone" id="phone" placeholder="+5531900000000"/><br><br> 
-                    <b style="padding: 0 0.5% 0 2%;">Mensagem:</b> <textarea cols="42" rows="3" id="text" name="text"></textarea><br>  
-                    <input name="gravar" type="submit" id="gravar" value="ENVIAR" style="padding: 0.5% 14.2%; margin: 1% 11%; background-color: forestgreen"/>
+                <form action="https://web.whatsapp.com/send?phone=&phone&text=" method="GET" target="_blank">
+                    <label for="phone" class="label">
+                        Telefone: 
+                    </label><input type="text" name="phone" id="phone" placeholder="+5531900000000"/><br><br> 
+                    <label for="text" class="label">
+                        Mensagem: 
+                    </label>
+                    <textarea cols="42" rows="3" id="text" name="text"></textarea><br>  
+                    <label for="gravar"></label>
+                    <input name="gravar" type="submit" id="gravar" value="ENVIAR" class="btn"/>
                 </form>
             </div>
         </div>
