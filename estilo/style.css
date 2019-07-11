@@ -24,5 +24,21 @@ and open the template in the editor.
 .conteudo{
     float: none;
 }
+.label{
+   width:85px;
+   float:left;
+   display:block;   
+}
 
+.btn{
+    padding: 0.5% 14%;     
+    background-color: forestgreen;
+    color: #ebebeb;
+    margin: 8px 85px;
+}
+
+.btn:hover{
+    background-color: greenyellow;
+    color: black;
+}
 
