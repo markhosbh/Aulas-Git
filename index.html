@@ -5,7 +5,7 @@
     </head>
     <body>
         <div class="corpo">
-            <h1>Mensagem Whatsapp</h1>
+            <h1>Mensagem Whatsapp Web</h1>
             <p>Preencha as informações abaixo para enviar uma mensagem para qualquer número do Wpp sem ter o contato na agenda.</p>
             <div class="logo">
                 <img src="https://cdn.icon-icons.com/icons2/555/PNG/128/whatsapp_icon-icons.com_53606.png" width="128" height="128" alt="Whatsapp"/>
@@ -23,6 +23,26 @@
                     <input name="gravar" type="submit" id="gravar" value="ENVIAR" class="btn"/>
                 </form>
             </div>
+			<hr>
+			<h1>Mensagem Whatsapp Api</h1>
+            <p>Preencha as informações abaixo para enviar uma mensagem para qualquer número do Wpp sem ter o contato na agenda.</p>
+            <div class="logo">
+                <img src="https://cdn.icon-icons.com/icons2/555/PNG/128/whatsapp_icon-icons.com_53606.png" width="128" height="128" alt="Whatsapp"/>
+            </div>
+            <div class="conteudo">
+                <form action="https://api.whatsapp.com/send?phone=&phone&text=" method="GET" target="_blank">						      
+                    <label for="phone" class="label">
+                        Telefone: 
+                    </label><input type="text" name="phone" id="phone" placeholder="+5531900000000"/><br><br> 
+                    <label for="text" class="label">
+                        Mensagem: 
+                    </label>
+                    <textarea cols="42" rows="3" id="text" name="text"></textarea><br>  
+                    <label for="gravar"></label>
+                    <input name="gravar" type="submit" id="gravar" value="ENVIAR" class="btn"/>
+                </form>
+            </div>
         </div>
     </body>
 </html>
+
